@@ -1,0 +1,7 @@
+.DS_Store
+.idea
+npm-debug.log
+yarn-error.log
+node_modules
+log
+# config.js 这个文件我这里就不加添进来，要上传到 github
