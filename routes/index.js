@@ -2,14 +2,15 @@ var express = require('express');
 var router = express.Router();
 const userController = require('../controllers/user');
 
-/* GET home page. */
+/* 获取首页模板*/
+// 定义组数据
+const data = {
+  firstName: '甜甜',
+  lastName: 'ExpressFrame',
+};
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { data: data });
 });
-// error页面路由
-// router.get('/error', function (req, res, next) {
-//   res.render('error');
-// });
 
 // 获取用户信息
 router.get('/get_user', userController.showUser);

@@ -2,14 +2,29 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    <%= data.lastName %>
+  </title>
+  <link rel="stylesheet" href="/css/style.css" />
 </head>
 
 <body>
-  这是一个HTML页面
+  <div style="padding: 24px 48px">
+    <h1>☺</h1>
+    <p>
+      <span style="font-size: 30px">你好<span>
+          <%= data.firstName %>
+        </span>，<br />当看到这条信息时，说明你已经可以使用
+        <a href="https://github.com/Yue-Zeyi/ExpressFrame" target="_blank">
+          <%= data.lastName %>
+        </a>
+        了！</span>
+    </p>
+
+  </div>
 </body>
 
 </html>

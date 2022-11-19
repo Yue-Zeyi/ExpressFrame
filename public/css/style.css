@@ -1,8 +1,30 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
 }
-
+.think_default_text {
+  padding: 4px 48px;
+}
 a {
-  color: #00B7FF;
+  color: #2e5cd5;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+body {
+  background: #fff;
+  font-family: 'Century Gothic', 'Microsoft yahei';
+  color: #333;
+  font-size: 18px;
+}
+h1 {
+  font-size: 100px;
+  font-weight: normal;
+  margin-bottom: 12px;
+}
+p {
+  line-height: 1.6em;
+  font-size: 42px;
 }
