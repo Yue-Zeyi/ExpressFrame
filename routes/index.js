@@ -12,7 +12,7 @@ router.get('/', function (req, res, next) {
   res.render('index', { data: data });
 });
 
-// 获取用户信息
+// 获取用户信息接口地址
 router.get('/get_user', userController.showUser);
 
 module.exports = router;
